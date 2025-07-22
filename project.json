@@ -1,10 +1,9 @@
 {
-  "name": "Reframework",
-  "projectId": "07527779-1b8f-4fe5-b99c-930f47de5874",
+  "name": "CMS",
+  "projectId": "176990ca-2a28-4978-b07c-a6ca146a079e",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.IntegrationService.Activities": "[1.15.0]",
     "UiPath.System.Activities": "[25.4.4]"
   },
   "webServices": [],
@@ -47,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "9d228811-fe06-48ab-999a-a2b15f314f5e",
+      "uniqueId": "499f8217-41c9-46e2-b9db-5ac046747e18",
       "input": [],
       "output": []
     }
