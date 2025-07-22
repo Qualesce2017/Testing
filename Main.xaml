@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -66,16 +66,11 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1863,538.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1863,794.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <isactr:ConnectorHttpActivity ConnectionId="{x:Null}" Configuration="H4sIAAAAAAAACn2QMU/DQAyF/4vntGoHlmw0ElBRSISqLojBvZjkSHJ3OL6WKOK/YzUZqISYTv6ez37PI9xZass+807QOmJIR9i6EGXikL6+JZBHuSLfCbzQZ6ReCqaTpXOBjB0JscqjqlvXCzpDVxwO+lrvIIX1crVcQQK61pERz480KI42oNSLzhr2vX+XRWWljkdtvDViT1aG/RBIG+9JrVqjQn780AHPukVxLRJmYyo9aPVEUvtSpcJfWB6IUSYTGRMKgdrN0NRU7rxvYjhgq/+nGBPfsD/3xFuhbuYF2w55UNPzgQo0DVb0O+D65pLwH39/eElgh66KOkoZOa339CWb1ptmOvwPfYolrrABAAA=" DisplayName="Connector http activity" sap:VirtualizedContainerService.HintSize="416,106" sap2010:WorkflowViewState.IdRef="ConnectorHttpActivity_1" UiPathActivityTypeId="166c15c1-2224-314a-8bf4-eca912526b14">
-      <isactr:ConnectorHttpActivity.FieldObjects>
-        <sco:Collection x:TypeArguments="isactr:FieldObject" />
-      </isactr:ConnectorHttpActivity.FieldObjects>
-    </isactr:ConnectorHttpActivity>
   </Sequence>
 </Activity>
