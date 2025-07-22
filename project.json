@@ -2,7 +2,7 @@
   "name": "CMS",
   "projectId": "176990ca-2a28-4978-b07c-a6ca146a079e",
   "description": "Blank Process",
-  "main": "Main.xaml",
+  "main": "Main_Output.xaml",
   "dependencies": {
     "UiPath.System.Activities": "[25.4.4]"
   },
@@ -45,8 +45,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "499f8217-41c9-46e2-b9db-5ac046747e18",
+      "filePath": "Main_Output.xaml",
+      "uniqueId": "5a29fdea-9f47-4246-9499-8de559dd9c8a",
       "input": [],
       "output": []
     }
